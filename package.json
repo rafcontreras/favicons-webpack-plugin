@@ -9,7 +9,6 @@
   ],
   "scripts": {
     "lint": "semistandard",
-    "prepublish": "npm run test",
     "posttest": "npm run lint",
     "test": "ava"
   },
